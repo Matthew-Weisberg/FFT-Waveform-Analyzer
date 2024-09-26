@@ -14,7 +14,7 @@ FONT_SIZE = 12
 FONT_COLOR = "black"
 WAVES_TO_SKIP = 5
 NUM_WAVES = 10
-REVISION = 'Version 1 - 22 Apr 2024'
+REVISION = 'Version 1.0.0'
 
 # Global variables
 file_path = None
@@ -195,7 +195,7 @@ def run_analysis():
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.title("File Selection")
+    root.title("FFT Waveform Analyzer")
 
     # Set background color to the specified value
     root.configure(background=BACKGROUND_COLOR)
